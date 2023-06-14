@@ -1,0 +1,15 @@
+.light {
+  @apply w-16 h-16 bg-slate-600 rounded-full cursor-pointer;
+
+  &.red{
+    @apply bg-red-500;
+  }
+
+  &.orange {
+    @apply bg-orange-500;
+  }
+
+  &.green {
+    @apply bg-green-500;
+  }
+}
